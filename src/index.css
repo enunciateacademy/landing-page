@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+/* Custom Utilities for Navy & Gold Education Palette */
+.bg-navy-950 {
+  background-color: #070F1E;
+}
+
+.bg-navy-900 {
+  background-color: #0B192C;
+}
+
+.bg-navy-800 {
+  background-color: #1E3E62;
+}
+
+.text-gold-400 {
+  color: #FFC107;
+}
+
+.text-gold-500 {
+  color: #E6A100;
+}
+
+.bg-gold-500 {
+  background-color: #FFB800;
+}
+
+.bg-gold-600 {
+  background-color: #E6A100;
+}
+
+.border-gold-400 {
+  border-color: #FFC107;
+}
+
+/* Accent Glow and Gradients */
+.gold-gradient-btn {
+  background: linear-gradient(135deg, #FFD028 0%, #FF9900 100%);
+  color: #0B192C;
+  font-weight: 700;
+  box-shadow: 0 4px 14px rgba(255, 184, 0, 0.35);
+  transition: all 0.2s ease-in-out;
+}
+
+.gold-gradient-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 184, 0, 0.5);
+}
+
+.navy-gradient-bg {
+  background: linear-gradient(135deg, #070F1E 0%, #0B192C 60%, #1E3E62 100%);
+}
+
+.card-hover-effect {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover-effect:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px -6px rgba(11, 25, 44, 0.12);
+}
+
